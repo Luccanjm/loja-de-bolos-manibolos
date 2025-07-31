@@ -3,7 +3,7 @@ import './index.css'
 function ApresentationContainer({className=''}){
     return(
         <div className={`apresentation-container ${className}`}>
-            <h1 className="about-us">Sobre Nós</h1>
+            <h1 className="title-about-us">Sobre Nós</h1>
             <p className="text-about-us">
                 Desde 1987, a nossa paixão é adoçar momentos especiais. Fundada com muito amor e receitas de família, a nossa loja de bolos nasceu com o propósito de oferecer sabores que despertam memórias e criam novas histórias.
 
@@ -13,7 +13,6 @@ function ApresentationContainer({className=''}){
 
                 Seja bem-vindo à nossa casa. Aqui, tradição e sabor caminham juntos desde 1987.
 
-                Se quiser algo mais informal, moderno ou com foco em algum diferencial específico (como bolos personalizados, ingredientes orgânicos, delivery etc.), posso adaptar.
             </p>
         </div>
     )

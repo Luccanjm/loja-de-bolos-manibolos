@@ -6,6 +6,9 @@ function NavMenu(props){
     return(
         <div className='container-menu'>
            <nav className={`menu-nav ${props.menuHidden ? 'menu-nav-open' : 'menu-nav-closed'}`}>
+                {!props.menuHidden ?
+                <></>
+                :
                 <ul className='list-menu'>
                     <li className='line-menu'>
                         <Link className='link-menu' to="/">Página Principal</Link>
@@ -22,7 +25,7 @@ function NavMenu(props){
                     <li className='line-menu'>
                         <Link className='link-menu' to="/contato">Contato</Link>
                     </li>
-                </ul>
+                </ul>}
             </nav> 
         </div>
     )
