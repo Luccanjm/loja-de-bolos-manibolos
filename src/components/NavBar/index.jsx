@@ -7,30 +7,18 @@ import closeButton from '../../assets/close-button.svg'
 import './index.css'
 import { useState } from 'react'
 
-function NavBar({className = ''}){
-    const [menuHidden, setMenuHidden] = useState(true);
-
-    function setVisibilityMenu() {
-        if(menuHidden === true){
-            setMenuHidden(false);
-
-        }else{
-            setMenuHidden(true);
-        }
-    }
-
-
+function NavBar({className = '', onToggleMenu, menuHidden}){
 
     return(
     <div className={`container-nav ${className}`}>  
       <nav className="nav-manibolos">
         <div className={`menu ${menuHidden ? 'menu-open' : 'menu-closed'}`}>
             {menuHidden ? 
-            <button className='button-img-close' onClick={setVisibilityMenu}>
+            <button className='button-img-close' onClick={onToggleMenu}>
                 <img className='close-button' src={closeButton} alt='close button menu'/> 
             </button>
             : 
-            <button className='button-img' onClick={setVisibilityMenu}>
+            <button className='button-img' onClick={onToggleMenu}>
                 <img src={menu} alt="menu hamburguer" className='menu-img'/>
             </button>}
             
