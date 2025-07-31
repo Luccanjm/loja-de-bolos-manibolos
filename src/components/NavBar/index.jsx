@@ -7,7 +7,7 @@ import closeButton from '../../assets/close-button.svg'
 import './index.css'
 import { useState } from 'react'
 
-function NavBar(){
+function NavBar({className = ''}){
     const [menuHidden, setMenuHidden] = useState(true);
 
     function setVisibilityMenu() {
@@ -22,7 +22,7 @@ function NavBar(){
 
 
     return(
-    <div className="container-nav">  
+    <div className={`container-nav ${className}`}>  
       <nav className="nav-manibolos">
         <div className={`menu ${menuHidden ? 'menu-open' : 'menu-closed'}`}>
             {menuHidden ? 

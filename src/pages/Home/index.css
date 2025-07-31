@@ -1,0 +1,18 @@
+.container-home{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 60px;
+    grid-template-areas: 
+        "header header header"
+        "content-about-us content-about-us content-about-us"
+        "content-products content-products content-products"
+        "footer footer footer";
+}
+
+.navbar{
+    grid-area: header;
+}
+
+.apresentation-container{
+    grid-area: content-about-us;
+}

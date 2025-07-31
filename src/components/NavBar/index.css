@@ -1,9 +1,7 @@
 .nav-manibolos{
-    display: grid;
-    grid-template-columns: 2.76fr 15fr 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    grid-template-areas: "menu title cart";
-    
 }
 
 .container-title{
@@ -25,7 +23,7 @@
 
 .menu-open{
     background-color: #7BAD69;
-    width: 100%;
+    width: 223.5px;
     transition: width 0.3s ease-in-out;
 }
 
@@ -58,11 +56,11 @@ menu:hover{
 
 .container-cart{
     cursor: pointer;
-    grid-area:cart;
 }
 
 .cart-img{
     width: 40px;
+    margin-right: 20px;
 }
 
 .nav-menu{

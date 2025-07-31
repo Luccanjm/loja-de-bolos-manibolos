@@ -1,4 +1,8 @@
 
+.container-menu{
+    grid-area: menu;
+}
+
 .menu-nav-closed{
     width: 0;
 }
