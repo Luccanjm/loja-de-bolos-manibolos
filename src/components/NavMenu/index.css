@@ -1,0 +1,34 @@
+.container-menu{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-template-areas: "menu content content";
+    height: 100vh;
+    
+}
+
+.menu-nav {
+    grid-area: menu;
+    border-radius: 0 0 20px 0;
+    background-color: #7BAD69;
+}
+
+
+.close-button{
+    width: 30px;
+}
+
+.list-menu{
+    color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.line-menu{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: #fff;
+}

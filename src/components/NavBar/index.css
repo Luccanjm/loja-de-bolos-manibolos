@@ -1,0 +1,70 @@
+.nav-manibolos{
+    display: grid;
+    grid-template-columns: 2.76fr 15fr 1fr;
+    align-items: center;
+    grid-template-areas: "menu title cart";
+    
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+    grid-area:title;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    grid-area:menu;
+    padding: 15px;
+}
+
+.menu-open{
+    background-color: #7BAD69;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+.menu-closed{
+    background-color: #fff;
+    width: 60px;
+}
+
+menu:hover{
+    background-color: #7BAD69;
+    display: inline;
+}
+
+.button-img, .button-img-close{
+    background-color: transparent;
+    border: none;
+}
+
+.menu-img{
+    cursor: pointer;
+}
+
+.container-title{
+    color: #E083B2;
+}
+
+.logo-manibolos{
+    width: 400px;
+}
+
+.container-cart{
+    cursor: pointer;
+    grid-area:cart;
+}
+
+.cart-img{
+    width: 40px;
+}
+
+.nav-menu{
+    display: none;
+}
