@@ -43,7 +43,7 @@ function NavBar(){
         </div>
         </nav>
 
-        {menuHidden ? <NavMenu menuHidden={menuHidden}/> : <></> }
+        <NavMenu menuHidden={menuHidden}/>
 
     </div>
     )

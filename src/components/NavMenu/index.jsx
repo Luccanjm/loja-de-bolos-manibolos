@@ -5,7 +5,7 @@ import './index.css'
 function NavMenu(props){
     return(
         <div className='container-menu'>
-           <nav className='menu-nav'>
+           <nav className={`menu-nav ${props.menuHidden ? 'menu-nav-open' : 'menu-nav-closed'}`}>
                 <ul className='list-menu'>
                     <li className='line-menu'>
                         <Link className='link-menu' to="/">Página Principal</Link>

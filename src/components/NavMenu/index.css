@@ -1,15 +1,15 @@
-.container-menu{
-    display: grid;
-    grid-template-columns: 0.4fr 1fr 1fr;
-    grid-template-areas: "menu content content";
-    height: 100vh;
-    
+
+.menu-nav-closed{
+    width: 0;
 }
 
-.menu-nav {
-    grid-area: menu;
+
+.menu-nav-open {
     border-radius: 0 0 20px 0;
     background-color: #7BAD69;
+    width: 253.5px;
+    height: 100vh;
+    transition: width 0.3s ease-in-out;
 }
 
 
