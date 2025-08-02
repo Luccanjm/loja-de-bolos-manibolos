@@ -40,19 +40,27 @@
 
 .button-book:hover{
     background-color: #3e5336;
+    color: #fff;
     border: none;
 }
 
 .container-link{
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
-.link-products{
+.link-products,.link-make-your-cake{
     color: inherit;
     font-size: 25px;
+    text-decoration: none;
 }
 
-.link-products:hover{
+.link-products:hover, .link-make-your-cake:hover{
     color: #fff;
-    text-decoration: none;
+
 }

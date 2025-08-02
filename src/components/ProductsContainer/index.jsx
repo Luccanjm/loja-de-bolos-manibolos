@@ -28,6 +28,7 @@ function ProductsContainer({className}){
             </div>
             <div className='container-link'>
                 <a href='/products' className='link-products'>Veja mais produtos</a>
+                <a href='/make-your-cake' className='link-make-your-cake'>Monte seu bolo</a>
             </div>
         </div>
     )

@@ -1,0 +1,25 @@
+.container-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    color: #242323;
+}
+
+.logo{
+    width: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.container-logo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.link-social-media{
+    text-decoration: none;
+    color:inherit;
+}
