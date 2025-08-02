@@ -44,3 +44,7 @@
 .contact-container{
     grid-area: contact;
 }
+
+.footer-container{
+    grid-area: footer;
+}

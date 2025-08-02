@@ -6,6 +6,7 @@ import ProductsContainer from "../../components/ProductsContainer";
 import SocialMediaContainer from "../../components/SocialMediaContainer";
 import './index.css'
 import ContactContainer from "../../components/ContactContainer";
+import Footer from "../../components/Footer";
 
 function Home() {
     const [menuHidden, setMenuHidden] = useState(false);
@@ -17,6 +18,7 @@ function Home() {
         <ProductsContainer className="products-container"/>
         <SocialMediaContainer className="social-media-container"/>
         <ContactContainer className="contact-container" />
+        <Footer className="footer-container"/>
         </div>
     )
 }
