@@ -5,6 +5,7 @@ import NavBar from "../../components/NavBar"
 import ProductsContainer from "../../components/ProductsContainer";
 import SocialMediaContainer from "../../components/SocialMediaContainer";
 import './index.css'
+import ContactContainer from "../../components/ContactContainer";
 
 function Home() {
     const [menuHidden, setMenuHidden] = useState(false);
@@ -15,6 +16,7 @@ function Home() {
         <ApresentationContainer className="apresentation-container"/>
         <ProductsContainer className="products-container"/>
         <SocialMediaContainer className="social-media-container"/>
+        <ContactContainer className="contact-container" />
         </div>
     )
 }
