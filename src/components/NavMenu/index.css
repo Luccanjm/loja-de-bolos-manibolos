@@ -13,6 +13,7 @@
     background-color: #7BAD69;
     width: 253.5px;
     height: 205vh;
+    position: fixed;
     transition: width 0.3s ease-in-out;
 }
 

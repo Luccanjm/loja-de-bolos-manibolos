@@ -3,9 +3,10 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 function NavMenu(props){
+
     return(
         <div className='container-menu'>
-           <nav className={`menu-nav ${props.menuHidden ? 'menu-nav-open' : 'menu-nav-closed'}`}>
+           <nav className={`${props.menuHidden ? 'menu-nav-open' : 'menu-nav-closed'}`}>
                 {!props.menuHidden ?
                 <></>
                 :
