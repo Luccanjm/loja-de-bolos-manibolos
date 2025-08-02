@@ -8,9 +8,9 @@ import logoInstagram from '../../assets/instagram.png'
 function SocialMediaContainer({className}){
 
     return(
-        <div className={`container-sm ${className}`}>
+        <div className={`${className}`}>
             <h1>Redes Sociais</h1>
-            <div className="container-social-media">
+            <div className="container-links-social-media">
                     <a className="link-social-media" target='_blank' href='https://www.instagram.com'>
                         <img className='logo' src={logoInstagram} alt='logo instagram'/>
                         Instagram
