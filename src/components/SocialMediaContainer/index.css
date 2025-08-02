@@ -10,16 +10,11 @@
 .logo{
     width: 30px;
     margin: 0 20px;
-    cursor: pointer;
-}
-
-.container-logo{
-    display: flex;
-    flex-direction: row;
-
 }
 
 .link-social-media{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color:inherit;
 }

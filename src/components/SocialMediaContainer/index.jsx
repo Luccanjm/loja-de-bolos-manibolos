@@ -9,18 +9,18 @@ function SocialMediaContainer({className}){
 
     return(
         <div className={`container-social-media ${className}`}>
-            <div className='container-logo'>
-                <img className='logo' src={logoInstagram} alt='logo instagram'/>
-                <a className="link-social-media" href='https://www.instagram.com'>Instagram</a>
-            </div>
-            <div className='container-logo'>
-                <img className='logo' src={logoYoutube} alt='logo youtube' />
-                <a className="link-social-media" href='https://www.youtube.com'>Youtube</a>
-            </div>
-            <div className='container-logo'>
-                <img className='logo' src={logoFacebook} alt='logo facebook'/>
-                <a className="link-social-media" href='https://www.facebook.com'>Facebook</a>
-            </div>
+                <a className="link-social-media" target='_blank' href='https://www.instagram.com'>
+                    <img className='logo' src={logoInstagram} alt='logo instagram'/>
+                    Instagram
+                </a>
+                <a className="link-social-media" target='_blank' href='https://www.youtube.com'>
+                    <img className='logo' src={logoYoutube} alt='logo youtube' />
+                    Youtube
+                </a>
+                <a className="link-social-media" target='_blank' href='https://www.facebook.com'>
+                    <img className='logo' src={logoFacebook} alt='logo facebook'/>
+                    Facebook
+                </a>
         </div>
     )
 
